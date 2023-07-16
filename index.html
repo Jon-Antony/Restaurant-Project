@@ -4,145 +4,150 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Restaurant-Project</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <div class="menusuperior">
-        <h1>driven eats</h1>
-        <h2>Sua comida em 6 minutos</h2>
+    <header class="header">
+        <h1>Restaurant-Project</h1>
+        <h2>Sua comida não vai chegar!</h2>
+    </header>
+
+    <div class="main-content">
+        <section class="container">
+            <h2 class="titulo">Prato principal</h2>
+            <div class="itens">
+                <div class="produto" data-test="dish" onclick = "selectprato(this) ;finalizar_pedido()">
+                    <img src="projeto__driven-eats__imagens\frango_yin_yang.png" alt="">
+                    <h2 data-test="item-name">Bife com fritas </h2>
+                    <p class="item-info">Acompanha bife, batata frita, arroz e salada</p>
+                    <p class="item-price" data-test="item-price">R$ 15,00</p>
+                </div>
+                <div class="produto" data-test="dish" onclick = "selectprato(this) ;finalizar_pedido()">
+                    <img src="projeto__driven-eats__imagens\frango_yin_yang.png" alt="">
+                    <h2 data-test="item-name">Bife com fritas </h2>
+                    <p class="item-info">Acompanha bife, batata frita, arroz e salada</p>
+                    <p class="item-price" data-test="item-price">R$ 15,00</p>
+                </div>
+                <div class="produto" data-test="dish" onclick = "selectprato(this) ;finalizar_pedido()">
+                    <img src="projeto__driven-eats__imagens\frango_yin_yang.png" alt="">
+                    <h2 data-test="item-name">Bife com fritas </h2>
+                    <p class="item-info">Acompanha bife, batata frita, arroz e salada</p>
+                    <p class="item-price" data-test="item-price">R$ 15,00</p>
+                </div>
+                <div class="produto" data-test="dish" onclick = "selectprato(this) ;finalizar_pedido()">
+                    <img src="projeto__driven-eats__imagens\frango_yin_yang.png" alt="">
+                    <h2 data-test="item-name">Bife com fritas </h2>
+                    <p class="item-info">Acompanha bife, batata frita, arroz e salada</p>
+                    <p class="item-price" data-test="item-price">R$ 15,00</p>
+                </div>
+                <div class="produto" data-test="dish" onclick = "selectprato(this) ;finalizar_pedido()">
+                    <img src="projeto__driven-eats__imagens\frango_yin_yang.png" alt="">
+                    <h2 data-test="item-name">Bife com fritas </h2>
+                    <p class="item-info">Acompanha bife, batata frita,  arroz,msalada/p>
+                    <p class="item-price" data-test="item-price">R$ 15,00</p>
+                </div>
+                <div class="produto" data-test="dish" onclick = "selectprato(this) ;finalizar_pedido()">
+                    <img src="projeto__driven-eats__imagens\frango_yin_yang.png" alt="">
+                    <h2 data-test="item-name">Bife com fritas </h2>
+                    <p class="item-info">Acompanha bife, batata frita, arroz e salada</p>
+                    <p class="item-price" data-test="item-price">R$ 15,00</p>
+                </div>
+            </div>
+        </section> 
+
+        <section class="container">
+            <h2 class="titulo">Bebida</h2>
+            <div class="itens">
+                <div class="produto" data-test="dish" onclick = "selectbebida(this) ;finalizar_pedido()">
+                    <img src="./projeto__driven-eats__imagens/coca-cola.png" alt="">
+                    <h2 data-test="item-name" >Coca-cola Lata</h2>
+                    <p class="item-info">Acompanha canudo ou copo descartávela</p>
+                    <p class="item-price" data-test="item-price">R$ 5,00</p>
+                </div>
+                <div class="produto" data-test="dish" onclick = "selectbebida(this) ;finalizar_pedido()">
+                    <img src="./projeto__driven-eats__imagens/coca-cola.png" alt="">
+                    <h2 data-test="item-name" >Coca-cola Lata</h2>
+                    <p class="item-info">Acompanha canudo ou copo descartávela</p>
+                    <p class="item-price" data-test="item-price">R$ 5,00</p>
+                </div>
+                <div class="produto" data-test="dish" onclick = "selectbebida(this) ;finalizar_pedido()">
+                    <img src="./projeto__driven-eats__imagens/coca-cola.png" alt="">
+                    <h2 data-test="item-name" >Coca-cola Lata</h2>
+                    <p class="item-info">Acompanha canudo ou copo descartávela</p>
+                    <p class="item-price" data-test="item-price">R$ 5,00</p>
+                </div>
+                <div class="produto" data-test="dish" onclick = "selectbebida(this) ;finalizar_pedido()">
+                    <img src="./projeto__driven-eats__imagens/coca-cola.png" alt="">
+                    <h2 data-test="item-name" >Coca-cola Lata</h2>
+                    <p class="item-info">Acompanha canudo ou copo descartávela</p>
+                    <p class="item-price" data-test="item-price">R$ 5,00</p>
+                </div>
+                <div class="produto" data-test="dish" onclick = "selectbebida(this) ;finalizar_pedido()">
+                    <img src="./projeto__driven-eats__imagens/coca-cola.png" alt="">
+                    <h2 data-test="item-name" >Coca-cola Lata</h2>
+                    <p class="item-info">Acompanha canudo ou copo descartável</p>
+                    <p class="item-price" data-test="item-price">R$ 5,00</p>
+                </div>
+                <div class="produto" data-test="dish" onclick = "selectbebida(this) ;finalizar_pedido()">
+                    <img src="./projeto__driven-eats__imagens/coca-cola.png" alt="">
+                    <h2 data-test="item-name" >Coca-cola Lata</h2>
+                    <p class="item-info">Acompanha canudo ou copo descartávela</p>
+                    <p class="item-price" data-test="item-price">R$ 5,00</p>
+                </div>
+            </div>
+        </section> 
+
+        <section class="container">
+            <h2 class="titulo">Sobremesa</h2>
+            <div class="itens">
+                <div class="produto" data-test="dish" onclick = "selectsobremesa(this) ;finalizar_pedido()">
+                    <img src="projeto__driven-eats__imagens\pudim.png" alt="">
+                    <h2 data-test="item-name" >Pudim</h2>
+                    <p class="item-info">Sem acompanhamentos</p>
+                    <p class="item-price" data-test="item-price">R$ 10,00</p>
+                </div>
+                <div class="produto" data-test="dish" onclick = "selectsobremesa(this) ;finalizar_pedido()">
+                    <img src="projeto__driven-eats__imagens\pudim.png" alt="">
+                    <h2 data-test="item-name" >Pudim</h2>
+                    <p class="item-info">Sem acompanhamentos</p>
+                    <p class="item-price" data-test="item-price">R$ 10,00</p>
+                </div>
+                <div class="produto" data-test="dish" onclick = "selectsobremesa(this) ;finalizar_pedido()">
+                    <img src="projeto__driven-eats__imagens\pudim.png" alt="">
+                    <h2 data-test="item-name" >Pudim</h2>
+                    <p class="item-info">Sem acompanhamentos</p>
+                    <p class="item-price" data-test="item-price">R$ 10,00</p>
+                </div>
+                <div class="produto" data-test="dish" onclick = "selectsobremesa(this) ;finalizar_pedido()">
+                    <img src="projeto__driven-eats__imagens\pudim.png" alt="">
+                    <h2 data-test="item-name" >Pudim</h2>
+                    <p class="item-info">Sem acompanhamentos</p>
+                    <p class="item-price" data-test="item-price">R$ 10,00</p>
+                </div>
+                <div class="produto" data-test="dish" onclick = "selectsobremesa(this) ;finalizar_pedido()">
+                    <img src="projeto__driven-eats__imagens\pudim.png" alt="">
+                    <h2 data-test="item-name" >Pudim</h2>
+                    <p class="item-info">Sem acompanhamentos/p>
+                    <p class="item-price" data-test="item-price">R$ 10,00</p>
+                </div>
+                <div class="produto" data-test="dish" onclick = "selectsobremesa(this) ;finalizar_pedido()">
+                    <img src="./projeto__driven-eats__imagens/pudim.png" alt="">
+                    <h2 data-test="item-name" >Pudim</h2>
+                    <p class="item-info">Sem acompanhamentos</p>
+                    <p class="item-price" data-test="item-price">R$ 10,00</p>
+                </div>
+            </div>
+        </section> 
     </div>
-    <div class="menuinferior">
+    
+    <footer class="footer">
         <button id="botão" class="pedido_indisponivel" data-test="order-btn" disabled onclick="enviarMensagem()">
-            Selecione os 3 itens para fechar o pedido
+            <p>Selecione 1 de cada categoria!</p>
         </button>
-    </div>
-    <div class="margin"></div>
-    <div class="titulo">
-        Prato principal
-    </div>
-    <div class="itens">
-        <div class="produto" data-test="dish" onclick = "selectprato(this) ;finalizar_pedido()">
-            <img src="projeto__driven-eats__imagens\frango_yin_yang.png" alt="">
-            <h2 data-test="item-name" >bife com fritas </h2>
-            <h3>bife,batata frita,arroz e molho a campanha</h3>
-            <h1  data-test="item-price">R$ 15,00</h1>
-        </div>
-        <div class="produto" data-test="dish" onclick = "selectprato(this) ;finalizar_pedido()">
-            <img src="projeto__driven-eats__imagens\frango_yin_yang.png" alt="">
-            <h2 data-test="item-name" >bife com fritas </h2>
-            <h3>bife,batata frita,arroz e molho a campanha</h3>
-            <h1  data-test="item-price">R$ 15,00</h1>
-        </div>
-        <div class="produto" data-test="dish" onclick = "selectprato(this) ;finalizar_pedido()">
-            <img src="projeto__driven-eats__imagens\frango_yin_yang.png" alt="">
-            <h2 data-test="item-name" >bife com fritas </h2>
-            <h3>bife,batata frita,arroz e molho a campanha</h3>
-            <h1  data-test="item-price">R$ 15,00</h1>
-        </div>
-        <div class="produto" data-test="dish" onclick = "selectprato(this) ;finalizar_pedido()">
-            <img src="projeto__driven-eats__imagens\frango_yin_yang.png" alt="">
-            <h2 data-test="item-name" >bife com fritas </h2>
-            <h3>bife,batata frita,arroz e molho a campanha</h3>
-            <h1  data-test="item-price">R$ 15,00</h1>
-        </div>
-        <div class="produto" data-test="dish" onclick = "selectprato(this) ;finalizar_pedido()">
-            <img src="projeto__driven-eats__imagens\frango_yin_yang.png" alt="">
-            <h2 data-test="item-name" >bife com fritas </h2>
-            <h3>bife,batata frita, arroz,molho a campanha</h3>
-            <h1  data-test="item-price">R$ 15,00</h1>
-        </div>
-        <div class="produto" data-test="dish" onclick = "selectprato(this) ;finalizar_pedido()">
-            <img src="projeto__driven-eats__imagens\frango_yin_yang.png" alt="">
-            <h2 data-test="item-name" >bife com fritas </h2>
-            <h3>bife,batata frita,arroz e molho a campanha</h3>
-            <h1  data-test="item-price">R$ 15,00</h1>
-        </div>
-    </div>
-    <div class="titulo">
-        Bebida
-    </div>
-    <div class="itens">
-        <div class="produto" data-test="drink" onclick = "selectbebida(this) ;finalizar_pedido()">
-            <img src="projeto__driven-eats__imagens\coca-cola.png" alt="">
-            <h2 data-test="item-name" >coca cola </h2>
-            <h3>bife,batata frita,arroz e molho a campanha</h3>
-            <h1  data-test="item-price">R$ 10,00</h1>
-        </div>
-        <div class="produto" data-test="drink" onclick = "selectbebida(this) ;finalizar_pedido()">
-            <img src="projeto__driven-eats__imagens\coca-cola.png" alt="">
-            <h2 data-test="item-name" >coca cola </h2>
-            <h3>bife,batata frita,arroz e molho a campanha</h3>
-            <h1  data-test="item-price">R$ 10,00</h1>
-        </div>
-        <div class="produto" data-test="drink" onclick = "selectbebida(this) ;finalizar_pedido()">
-            <img src="projeto__driven-eats__imagens\coca-cola.png" alt="">
-            <h2 data-test="item-name" >coca cola </h2>
-            <h3>bife,batata frita,arroz e molho a campanha</h3>
-            <h1  data-test="item-price">R$ 10,00</h1>
-        </div>
-        <div class="produto" data-test="drink" onclick = "selectbebida(this) ;finalizar_pedido()">
-            <img src="projeto__driven-eats__imagens\coca-cola.png" alt="">
-            <h2 data-test="item-name" >coca cola </h2>
-            <h3>bife,batata frita,arroz e molho a campanha</h3>
-            <h1  data-test="item-price">R$ 10,00</h1>
-        </div>
-        <div class="produto" data-test="drink" onclick = "selectbebida(this) ;finalizar_pedido()">
-            <img src="projeto__driven-eats__imagens\coca-cola.png" alt="">
-            <h2 data-test="item-name" >coca cola </h2>
-            <h3>bife,batata frita, arroz,molho a campanha</h3>
-            <h1  data-test="item-price">R$ 10,00</h1>
-        </div>
-        <div class="produto" data-test="drink" onclick = "selectbebida(this) ;finalizar_pedido()">
-            <img src="projeto__driven-eats__imagens\coca-cola.png" alt="">
-            <h2 data-test="item-name" >coca cola </h2>
-            <h3>bife,batata frita,arroz e molho a campanha</h3>
-            <h1  data-test="item-price">R$ 10,00</h1>
-        </div>
-    </div>
-    <div class="titulo">
-        sobremesa
-    </div>
-    <div class="itens">
-        <div class="produto" data-test="dessert" onclick = "selectsobremesa(this) ;finalizar_pedido()">
-            <img src="projeto__driven-eats__imagens\pudim.png" alt="">
-            <h2 data-test="item-name" >Pudim delicia </h2>
-            <h3>bife,batata frita,arroz e molho a campanha</h3>
-            <h1  data-test="item-price">R$ 8,00</h1>
-        </div>
-        <div class="produto" data-test="dessert" onclick = "selectsobremesa(this) ;finalizar_pedido()">
-            <img src="projeto__driven-eats__imagens\pudim.png" alt="">
-            <h2 data-test="item-name" >Pudim delicia </h2>
-            <h3>bife,batata frita,arroz e molho a campanha</h3>
-            <h1  data-test="item-price">R$ 8,00</h1>
-        </div>
-        <div class="produto" data-test="dessert" onclick = "selectsobremesa(this) ;finalizar_pedido()">
-            <img src="projeto__driven-eats__imagens\pudim.png" alt="">
-            <h2 data-test="item-name" >Pudim delicia </h2>
-            <h3>bife,batata frita,arroz e molho a campanha</h3>
-            <h1  data-test="item-price">R$ 8,00</h1>
-        </div>
-        <div class="produto" data-test="dessert" onclick = "selectsobremesa(this) ;finalizar_pedido()">
-            <img src="projeto__driven-eats__imagens\pudim.png" alt="">
-            <h2 data-test="item-name" >Pudim delicia </h2>
-            <h3>bife,batata frita,arroz e molho a campanha</h3>
-            <h1  data-test="item-price">R$ 8,00</h1>
-        </div>
-        <div class="produto" data-test="dessert" onclick = "selectsobremesa(this) ;finalizar_pedido()">
-            <img src="projeto__driven-eats__imagens\pudim.png" alt="">
-            <h2 data-test="item-name" >Pudim delicia </h2>
-            <h3>bife,batata frita, arroz,molho a campanha</h3>
-            <h1  data-test="item-price">R$ 8,00</h1>
-        </div>
-        <div class="produto" data-test="dessert" onclick = "selectsobremesa(this) ;finalizar_pedido()">
-            <img src="projeto__driven-eats__imagens\pudim.png" alt="">
-            <h2 data-test="item-name" >Pudim delicia </h2>
-            <h3>bife,batata frita,arroz e molho a campanha</h3>
-            <h1  data-test="item-price">R$ 8,00</h1>
-        </div>
-    </div>
-    <div class="margin"></div>
+    </footer>
+
     <script src="scripy.js"></script>
 </body>
 </html>

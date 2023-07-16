@@ -40,13 +40,13 @@ function finalizar_pedido(){
     }
 }
 function enviarMensagem() {
-    const numero = "5521970124125";
+    const numero = "5521999999999";
     const pratonome = document.querySelector(".pratoprincipal h2").innerHTML
     const bebidanome = document.querySelector(".bebida h2").innerHTML
     const sobremesanome = document.querySelector(".sobremesa h2").innerHTML
-    const pvalor = parseFloat(document.querySelector(".pratoprincipal h1").innerHTML.replace("R$ ","").replace(",","."));
-    const Bvalor = parseFloat(document.querySelector(".bebida h1").innerHTML.replace("R$ ","").replace(",","."));
-    const Svalor = parseFloat(document.querySelector(".sobremesa h1").innerHTML.replace("R$ ","").replace(",","."));
+    const pvalor = parseFloat(document.querySelector(".pratoprincipal .item-price").innerHTML.replace("R$ ","").replace(",","."));
+    const Bvalor = parseFloat(document.querySelector(".bebida .item-price").innerHTML.replace("R$ ","").replace(",","."));
+    const Svalor = parseFloat(document.querySelector(".sobremesa .item-price").innerHTML.replace("R$ ","").replace(",","."));
     let total = (pvalor + Bvalor + Svalor).toFixed(2).replace(".",",")
     total = total.toString().replace(",",".")
     const mensagem =`Olá, gostaria de fazer o pedido: \n- Prato: ${pratonome}- Bebida: ${bebidanome}- Sobremesa: ${sobremesanome}Total: R$ ${total}`
